@@ -1,0 +1,169 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 910403000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user clicks login from header",
+            "match": {
+              "location": "steps.LoginSteps.user_clicks_login_from_header()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 4011611000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user fills username",
+            "match": {
+              "location": "steps.LoginSteps.user_fills_username()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 1195573000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user fills password",
+            "match": {
+              "location": "steps.LoginSteps.user_fills_password()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 268798000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks login button",
+            "match": {
+              "location": "steps.LoginSteps.user_clicks_login_button()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 5259397000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on laptop tab",
+            "match": {
+              "location": "steps.ListedItemsSteps.click_on_laptop_tab()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 5790680000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "pick from item on page and click",
+            "match": {
+              "location": "steps.AddItemSteps.pickFromItemOnPageAndClick()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 5113451000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click add to cart button",
+            "match": {
+              "location": "steps.AddItemSteps.clickAddToCartButton()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 5028772000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify item added",
+            "match": {
+              "location": "steps.AddItemSteps.verifyItemAdded()"
+            },
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-02-26T16:10:04.207Z",
+        "before": [
+          {
+            "result": {
+              "duration": 8349956000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.Hooks.start()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "user should be able to delete an item to cart",
+        "description": "",
+        "id": "add-item-verification;user-should-be-able-to-delete-an-item-to-cart",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5798075000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "click on cart from header",
+            "match": {
+              "location": "steps.DeleteItemSteps.click_on_cart_from_header()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 5138484000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "click on delete",
+            "match": {
+              "location": "steps.DeleteItemSteps.click_on_delete()"
+            },
+            "keyword": "* "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@meliserva"
+          }
+        ]
+      }
+    ],
+    "name": "add item verification",
+    "description": "",
+    "id": "add-item-verification",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/DeleteItem.feature",
+    "tags": []
+  }
+]
